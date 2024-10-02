@@ -54,7 +54,7 @@ jobs:
         uses: thehanimo/pr-title-checker@v1.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          remote_configuration_path: "https://raw.githubusercontent.com/leoviana00/lab-k8s-prep-cks/main/.github/pr-title-checker-config.json"
+          remote_configuration_path: "https://raw.githubusercontent.com/leoviana00/dio-dp-k8s-deploy-app/main/.github/pr-title-checker-config.json"
 
       - name: Comment PR on Success and Add Label 
         if: success()
