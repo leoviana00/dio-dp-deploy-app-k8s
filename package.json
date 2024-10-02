@@ -1,6 +1,6 @@
 {
   "name": "dio-dp-k8s-deploy-app",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "devDependencies": {
     "auto-changelog": "*"
   },
